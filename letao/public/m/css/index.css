@@ -1,0 +1,67 @@
+/*轮播图*/
+.lt_container .lt_banner {
+	width: 100%;
+}
+.lt_container .lt_banner ul {
+	margin: 0;
+	padding: 0;
+}
+/*导航栏*/
+.lt_container .lt_nav {
+	width: 100%;
+	padding: 10px 10px 15px;
+	border-bottom: 1px solid #ccc;
+}
+.lt_container .lt_nav li {
+	float: left;
+	width: 33.33333%;
+}
+.lt_container .lt_nav li  img {
+	display: block;
+	width: 100%;
+}
+/*产品区*/
+.lt_container .lt_product {
+	width: 100%;
+	padding: 0 10px;
+}
+.lt_container .lt_product li {
+	width: 48%;
+	margin: 5px 0;
+	padding: 10px 0;
+	box-shadow: 0 0 3px #ccc;
+	text-align: center;
+}
+.lt_container .lt_product li:nth-of-type(2n -1) {
+	float: left;
+}
+.lt_container .lt_product li:nth-of-type(2n) {
+	float: right;
+}
+.lt_container .lt_product li a {
+	display: block;
+	width: 100%;
+}
+.lt_container .lt_product li a img {
+	display: block;
+	width: 100%;
+}
+.lt_container .lt_product li a p {
+	padding: 0 10px;
+	text-align: left;
+}
+.lt_container .lt_product li a span {
+	font-size: 12px;FF3300
+}
+.lt_container .lt_product li a span:first-of-type {
+	color: #FF3300;
+}
+.lt_container .lt_product li a span:last-of-type {
+	color: #ccc;
+	text-decoration: line-through;
+}
+.lt_container .lt_product li a button {
+	color: #fff;
+	background-color: #006699;
+}
+

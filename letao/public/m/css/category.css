@@ -1,0 +1,29 @@
+/*一级分类*/
+.lt_container .lt_cateLeft {
+	width: 80px;
+	float: left;
+}
+.lt_container .lt_cateLeft li {
+	width: 100%;
+	height: 45px;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	line-height: 44px;
+}
+.lt_container .lt_cateLeft li.now {
+	color: orange;
+	border-right: none;
+}
+/*二级分类*/
+.lt_container .lt_cateRight {
+	overflow: hidden;
+}
+.lt_container .lt_cateRight li {
+	width: 33.3333%;
+	padding: 10px;
+	float: left;
+}
+.lt_container .lt_cateRight li img {
+	display: block;
+	width: 100%;
+}
